@@ -12,7 +12,7 @@
 ## 💫 Sobre mim
 
 💻 Estudante de Engenharia de Software  
-🏢 Estagiária no INSS  
+🏢 Estagiária na CUMMINS Brasil 
 📱 Desenvolvendo projetos com Java e Android Studio  
 🚀 Apaixonada por tecnologia e desenvolvimento de software  
 🎯 Sempre buscando aprender algo novo e evoluir profissionalmente  
