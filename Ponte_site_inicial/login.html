@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Ponte</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body class="auth-page">
+  <main class="auth-layout">
+    <aside class="auth-aside">
+      <a class="brand brand-light" href="index.html"><span class="brand-mark">▮▮▮</span> Ponte</a>
+      <div class="aside-message">
+        <span class="eyebrow">TALENTO ENCONTRA OPORTUNIDADE</span>
+        <h1>Carreiras melhores começam com encontros certos.</h1>
+        <p>Conectamos pessoas e empresas por aquilo que realmente importa: potencial, propósito e compatibilidade.</p>
+      </div>
+      <div class="aside-proof"><span class="proof-bubbles">MA&nbsp; • &nbsp;↗&nbsp; • &nbsp;+</span><strong>Conexões que aproximam talentos e oportunidades.</strong></div>
+    </aside>
+    <section class="auth-main">
+      <div class="auth-card">
+        <span class="eyebrow dark">BEM-VINDO DE VOLTA!</span>
+        <h2>LOGIN</h2>
+        <p class="form-intro">Escolha como deseja ingressar na Ponte</p>
+        <div class="switcher" role="group" aria-label="Tipo de conta">
+          <button type="button" class="switch-option active" data-account="candidato">Candidato</button>
+          <button type="button" class="switch-option" data-account="empresa">Empresa</button>
+        </div>
+        <form id="login-form">
+          <label for="login-email">E-mail</label>
+          <input id="login-email" name="email" type="email" placeholder="Digite seu e-mail" required>
+          <label for="login-password">Senha</label>
+          <input id="login-password" name="senha" type="password" placeholder="Digite sua senha" required>
+          <a class="forgot" href="#" id="forgot-link">Esqueci a senha</a>
+          <button class="button button-orange submit-button" type="submit">Entrar</button>
+        </form>
+        <p class="form-bottom">Ainda não tem conta? <a href="cadastro.html">Cadastre-se</a></p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
